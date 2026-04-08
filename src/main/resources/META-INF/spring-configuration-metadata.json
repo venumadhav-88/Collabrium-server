@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.collabrium.config.JwtProperties",
+      "sourceType": "com.collabrium.config.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT signing secret key (should be at least 256 bits for HS512)"
+    },
+    {
+      "name": "jwt.expiration-ms",
+      "type": "java.lang.Long",
+      "description": "JWT access token expiration time in milliseconds"
+    },
+    {
+      "name": "jwt.refresh-expiration-ms",
+      "type": "java.lang.Long",
+      "description": "JWT refresh token expiration time in milliseconds"
+    }
+  ]
+}
