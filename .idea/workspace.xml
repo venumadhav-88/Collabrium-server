@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b88e34d-55cc-4c22-95a8-0aa5a2d7785a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/CollabriumApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/CollabriumApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/config/DataSeeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/config/DataSeeder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/config/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/config/JwtProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/AnnouncementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/AnnouncementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/DiscussionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/DiscussionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/DocumentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/MilestoneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/MilestoneController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/NotificationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AnnouncementDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AnnouncementDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ApiResponse$ApiResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ApiResponse$ApiResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ApiResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthRequest$AuthRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthRequest$AuthRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthResponse$AuthResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthResponse$AuthResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/AuthResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DiscussionThreadDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DiscussionThreadDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DocumentDto$DocumentDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DocumentDto$DocumentDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DocumentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/DocumentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ErrorResponse$ErrorResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ErrorResponse$ErrorResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MessageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MessageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MilestoneDto$MilestoneDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MilestoneDto$MilestoneDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MilestoneDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/MilestoneDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/NotificationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/NotificationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ProjectDto$ProjectDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ProjectDto$ProjectDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ProjectDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/ProjectDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RefreshTokenRequest$RefreshTokenRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RefreshTokenRequest$RefreshTokenRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RefreshTokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RefreshTokenRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/exception/ApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/exception/ApiException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Announcement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Announcement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/DiscussionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/DiscussionThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Document$DocumentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Document$DocumentBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Document.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Milestone$MilestoneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Milestone$MilestoneBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Milestone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/MilestoneStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/MilestoneStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Notification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Project$ProjectBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Project$ProjectBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectMember$ProjectMemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectMember$ProjectMemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/ProjectStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/RefreshToken$RefreshTokenBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/RefreshToken$RefreshTokenBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/RefreshToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/RefreshToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/AnnouncementRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/AnnouncementRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/DiscussionThreadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/DiscussionThreadRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/DocumentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/MessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/MessageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/MilestoneRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/MilestoneRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/NotificationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/NotificationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/ProjectMemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/ProjectMemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/ProjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/RefreshTokenRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/RefreshTokenRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/security/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/security/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/security/JwtAuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/security/JwtAuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/security/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/security/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/AnnouncementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/AnnouncementService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/DiscussionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/DiscussionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/DocumentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/DocumentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/MilestoneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/MilestoneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/NotificationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/RefreshTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/RefreshTokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/collabrium/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/collabrium/service/UserService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3CRnvK6JhafMCtqqnzIVncrHFUU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CollabriumApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "S:/Projects/Full-Stack/Collabrium-backed/back-end"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CollabriumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="collabrium-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.collabrium.CollabriumApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.collabrium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CollabriumApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b88e34d-55cc-4c22-95a8-0aa5a2d7785a" name="Changes" comment="" />
+      <created>1776357480110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776357480110</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+</project>
