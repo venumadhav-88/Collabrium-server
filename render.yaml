@@ -2,6 +2,7 @@ services:
   - type: web
     name: collabrium-backend
     env: docker
+    plan: free
     envVars:
       - key: JAVA_VERSION
         value: 21
