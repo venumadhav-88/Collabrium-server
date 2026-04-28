@@ -20,6 +20,10 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private Role role;
+    @Column(nullable = false)
+    private boolean isEmailVerified = false;
+    @Column(nullable = false)
+    private boolean is2faEnabled = false;
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
     @Column(nullable = false)
@@ -55,6 +59,10 @@ public class User {
         private String password;
 
         private Role role;
+
+        private boolean isEmailVerified;
+
+        private boolean is2faEnabled;
 
         private LocalDateTime createdAt;
 
@@ -120,6 +128,24 @@ public class User {
          * @return {@code this}.
          */
 
+        public User.UserBuilder isEmailVerified(final boolean isEmailVerified) {
+            this.isEmailVerified = isEmailVerified;
+            return this;
+        }
+
+        /**
+         * @return {@code this}.
+         */
+
+        public User.UserBuilder is2faEnabled(final boolean is2faEnabled) {
+            this.is2faEnabled = is2faEnabled;
+            return this;
+        }
+
+        /**
+         * @return {@code this}.
+         */
+
         public User.UserBuilder createdAt(final LocalDateTime createdAt) {
             this.createdAt = createdAt;
             return this;
@@ -171,13 +197,13 @@ public class User {
         }
 
         public User build() {
-            return new User(this.id, this.name, this.email, this.password, this.role, this.createdAt, this.updatedAt, this.refreshToken, this.projectMembers, this.documents, this.projects);
+            return new User(this.id, this.name, this.email, this.password, this.role, this.isEmailVerified, this.is2faEnabled, this.createdAt, this.updatedAt, this.refreshToken, this.projectMembers, this.documents, this.projects);
         }
 
         @java.lang.Override
 
         public java.lang.String toString() {
-            return "User.UserBuilder(id=" + this.id + ", name=" + this.name + ", email=" + this.email + ", password=" + this.password + ", role=" + this.role + ", createdAt=" + this.createdAt + ", updatedAt=" + this.updatedAt + ", refreshToken=" + this.refreshToken + ", projectMembers=" + this.projectMembers + ", documents=" + this.documents + ", projects=" + this.projects + ")";
+            return "User.UserBuilder(id=" + this.id + ", name=" + this.name + ", email=" + this.email + ", password=" + this.password + ", role=" + this.role + ", isEmailVerified=" + this.isEmailVerified + ", is2faEnabled=" + this.is2faEnabled + ", createdAt=" + this.createdAt + ", updatedAt=" + this.updatedAt + ", refreshToken=" + this.refreshToken + ", projectMembers=" + this.projectMembers + ", documents=" + this.documents + ", projects=" + this.projects + ")";
         }
     }
 
@@ -203,6 +229,14 @@ public class User {
 
     public Role getRole() {
         return this.role;
+    }
+
+    public boolean isEmailVerified() {
+        return this.isEmailVerified;
+    }
+
+    public boolean is2faEnabled() {
+        return this.is2faEnabled;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -247,6 +281,14 @@ public class User {
 
     public void setRole(final Role role) {
         this.role = role;
+    }
+
+    public void setEmailVerified(final boolean isEmailVerified) {
+        this.isEmailVerified = isEmailVerified;
+    }
+
+    public void set2faEnabled(final boolean is2faEnabled) {
+        this.is2faEnabled = is2faEnabled;
     }
 
     public void setCreatedAt(final LocalDateTime createdAt) {
@@ -295,6 +337,8 @@ public class User {
         final java.lang.Object this$role = this.getRole();
         final java.lang.Object other$role = other.getRole();
         if (this$role == null ? other$role != null : !this$role.equals(other$role)) return false;
+        if (this.isEmailVerified() != other.isEmailVerified()) return false;
+        if (this.is2faEnabled() != other.is2faEnabled()) return false;
         final java.lang.Object this$createdAt = this.getCreatedAt();
         final java.lang.Object other$createdAt = other.getCreatedAt();
         if (this$createdAt == null ? other$createdAt != null : !this$createdAt.equals(other$createdAt)) return false;
@@ -335,6 +379,8 @@ public class User {
         result = result * PRIME + ($password == null ? 43 : $password.hashCode());
         final java.lang.Object $role = this.getRole();
         result = result * PRIME + ($role == null ? 43 : $role.hashCode());
+        result = result * PRIME + (this.isEmailVerified() ? 79 : 97);
+        result = result * PRIME + (this.is2faEnabled() ? 79 : 97);
         final java.lang.Object $createdAt = this.getCreatedAt();
         result = result * PRIME + ($createdAt == null ? 43 : $createdAt.hashCode());
         final java.lang.Object $updatedAt = this.getUpdatedAt();
@@ -353,18 +399,20 @@ public class User {
     @java.lang.Override
 
     public java.lang.String toString() {
-        return "User(id=" + this.getId() + ", name=" + this.getName() + ", email=" + this.getEmail() + ", password=" + this.getPassword() + ", role=" + this.getRole() + ", createdAt=" + this.getCreatedAt() + ", updatedAt=" + this.getUpdatedAt() + ", refreshToken=" + this.getRefreshToken() + ", projectMembers=" + this.getProjectMembers() + ", documents=" + this.getDocuments() + ", projects=" + this.getProjects() + ")";
+        return "User(id=" + this.getId() + ", name=" + this.getName() + ", email=" + this.getEmail() + ", password=" + this.getPassword() + ", role=" + this.getRole() + ", isEmailVerified=" + this.isEmailVerified() + ", is2faEnabled=" + this.is2faEnabled() + ", createdAt=" + this.getCreatedAt() + ", updatedAt=" + this.getUpdatedAt() + ", refreshToken=" + this.getRefreshToken() + ", projectMembers=" + this.getProjectMembers() + ", documents=" + this.getDocuments() + ", projects=" + this.getProjects() + ")";
     }
 
     public User() {
     }
 
-    public User(final Long id, final String name, final String email, final String password, final Role role, final LocalDateTime createdAt, final LocalDateTime updatedAt, final RefreshToken refreshToken, final List<ProjectMember> projectMembers, final List<Document> documents, final List<Project> projects) {
+    public User(final Long id, final String name, final String email, final String password, final Role role, final boolean isEmailVerified, final boolean is2faEnabled, final LocalDateTime createdAt, final LocalDateTime updatedAt, final RefreshToken refreshToken, final List<ProjectMember> projectMembers, final List<Document> documents, final List<Project> projects) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.password = password;
         this.role = role;
+        this.isEmailVerified = isEmailVerified;
+        this.is2faEnabled = is2faEnabled;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
         this.refreshToken = refreshToken;

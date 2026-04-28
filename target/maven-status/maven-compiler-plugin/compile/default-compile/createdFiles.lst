@@ -3,6 +3,7 @@ com\collabrium\dto\RegisterRequest.class
 com\collabrium\model\ProjectStatus.class
 com\collabrium\dto\ErrorResponse.class
 com\collabrium\dto\UserDto$UserDtoBuilder.class
+com\collabrium\service\OtpService.class
 com\collabrium\controller\DocumentController.class
 com\collabrium\dto\MessageDto.class
 com\collabrium\model\Notification.class
@@ -22,6 +23,7 @@ com\collabrium\service\AnnouncementService.class
 com\collabrium\model\RefreshToken.class
 com\collabrium\dto\AuthResponse$AuthResponseBuilder.class
 com\collabrium\controller\NotificationController.class
+com\collabrium\model\Otp.class
 com\collabrium\service\DocumentService.class
 com\collabrium\model\Document.class
 com\collabrium\security\CustomUserDetailsService.class
@@ -34,10 +36,12 @@ com\collabrium\model\MilestoneStatus.class
 com\collabrium\dto\DiscussionThreadDto.class
 com\collabrium\model\Announcement.class
 com\collabrium\dto\RefreshTokenRequest.class
+com\collabrium\service\EmailService.class
 com\collabrium\controller\MilestoneController.class
 com\collabrium\security\JwtUtil.class
 com\collabrium\service\NotificationService.class
 com\collabrium\service\RefreshTokenService.class
+com\collabrium\repository\OtpRepository.class
 com\collabrium\dto\DocumentDto.class
 com\collabrium\repository\RefreshTokenRepository.class
 com\collabrium\security\JwtAuthFilter.class
@@ -46,6 +50,7 @@ com\collabrium\exception\GlobalExceptionHandler.class
 com\collabrium\config\AppConfig.class
 com\collabrium\dto\AnnouncementDto.class
 com\collabrium\repository\ProjectMemberRepository.class
+com\collabrium\model\OtpType.class
 com\collabrium\model\RefreshToken$RefreshTokenBuilder.class
 com\collabrium\dto\ErrorResponse$ErrorResponseBuilder.class
 com\collabrium\model\User.class
@@ -77,5 +82,6 @@ com\collabrium\model\ProjectMember.class
 com\collabrium\model\Message.class
 com\collabrium\dto\ApiResponse$ApiResponseBuilder.class
 com\collabrium\controller\ProjectController.class
+com\collabrium\dto\OtpVerificationRequest.class
 com\collabrium\model\User$UserBuilder.class
 com\collabrium\dto\ProjectDto$ProjectDtoBuilder.class

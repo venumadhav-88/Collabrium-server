@@ -15,8 +15,12 @@ S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\dto\RegisterRequest.j
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\Role.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\dto\UserDto.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\service\ProjectService.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\dto\OtpVerificationRequest.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\repository\OtpRepository.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\service\EmailService.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\Message.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\Announcement.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\Otp.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\repository\NotificationRepository.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\controller\AnnouncementController.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\exception\GlobalExceptionHandler.java
@@ -48,6 +52,7 @@ S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\repository\DocumentRe
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\controller\DocumentController.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\dto\ProjectDto.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\repository\ProjectRepository.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\service\OtpService.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\controller\MilestoneController.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\repository\MessageRepository.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\service\DocumentService.java
@@ -60,6 +65,7 @@ S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\exception\ApiExceptio
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\DiscussionThread.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\config\CorsConfig.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\dto\MilestoneDto.java
+S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\OtpType.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\security\JwtUtil.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\service\DiscussionService.java
 S:\Collabrium-deploy\back-end\src\main\java\com\collabrium\model\Document.java

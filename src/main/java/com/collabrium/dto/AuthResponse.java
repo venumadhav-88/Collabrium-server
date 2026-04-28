@@ -10,6 +10,7 @@ public class AuthResponse {
     private String name;
     private String email;
     private Role role;
+    private boolean requiresOtp;
 
     public static class AuthResponseBuilder {
 
@@ -24,6 +25,8 @@ public class AuthResponse {
         private String email;
 
         private Role role;
+
+        private boolean requiresOtp;
 
         AuthResponseBuilder() {
         }
@@ -82,14 +85,23 @@ public class AuthResponse {
             return this;
         }
 
+        /**
+         * @return {@code this}.
+         */
+
+        public AuthResponse.AuthResponseBuilder requiresOtp(final boolean requiresOtp) {
+            this.requiresOtp = requiresOtp;
+            return this;
+        }
+
         public AuthResponse build() {
-            return new AuthResponse(this.token, this.refreshToken, this.id, this.name, this.email, this.role);
+            return new AuthResponse(this.token, this.refreshToken, this.id, this.name, this.email, this.role, this.requiresOtp);
         }
 
         @java.lang.Override
 
         public java.lang.String toString() {
-            return "AuthResponse.AuthResponseBuilder(token=" + this.token + ", refreshToken=" + this.refreshToken + ", id=" + this.id + ", name=" + this.name + ", email=" + this.email + ", role=" + this.role + ")";
+            return "AuthResponse.AuthResponseBuilder(token=" + this.token + ", refreshToken=" + this.refreshToken + ", id=" + this.id + ", name=" + this.name + ", email=" + this.email + ", role=" + this.role + ", requiresOtp=" + this.requiresOtp + ")";
         }
     }
 
@@ -121,6 +133,10 @@ public class AuthResponse {
         return this.role;
     }
 
+    public boolean isRequiresOtp() {
+        return this.requiresOtp;
+    }
+
     public void setToken(final String token) {
         this.token = token;
     }
@@ -143,6 +159,10 @@ public class AuthResponse {
 
     public void setRole(final Role role) {
         this.role = role;
+    }
+
+    public void setRequiresOtp(final boolean requiresOtp) {
+        this.requiresOtp = requiresOtp;
     }
 
     @java.lang.Override
@@ -170,6 +190,7 @@ public class AuthResponse {
         final java.lang.Object this$role = this.getRole();
         final java.lang.Object other$role = other.getRole();
         if (this$role == null ? other$role != null : !this$role.equals(other$role)) return false;
+        if (this.isRequiresOtp() != other.isRequiresOtp()) return false;
         return true;
     }
 
@@ -194,24 +215,26 @@ public class AuthResponse {
         result = result * PRIME + ($email == null ? 43 : $email.hashCode());
         final java.lang.Object $role = this.getRole();
         result = result * PRIME + ($role == null ? 43 : $role.hashCode());
+        result = result * PRIME + (this.isRequiresOtp() ? 79 : 97);
         return result;
     }
 
     @java.lang.Override
 
     public java.lang.String toString() {
-        return "AuthResponse(token=" + this.getToken() + ", refreshToken=" + this.getRefreshToken() + ", id=" + this.getId() + ", name=" + this.getName() + ", email=" + this.getEmail() + ", role=" + this.getRole() + ")";
+        return "AuthResponse(token=" + this.getToken() + ", refreshToken=" + this.getRefreshToken() + ", id=" + this.getId() + ", name=" + this.getName() + ", email=" + this.getEmail() + ", role=" + this.getRole() + ", requiresOtp=" + this.isRequiresOtp() + ")";
     }
 
     public AuthResponse() {
     }
 
-    public AuthResponse(final String token, final String refreshToken, final Long id, final String name, final String email, final Role role) {
+    public AuthResponse(final String token, final String refreshToken, final Long id, final String name, final String email, final Role role, final boolean requiresOtp) {
         this.token = token;
         this.refreshToken = refreshToken;
         this.id = id;
         this.name = name;
         this.email = email;
         this.role = role;
+        this.requiresOtp = requiresOtp;
     }
 }

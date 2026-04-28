@@ -42,6 +42,20 @@ public class AuthController {
         return ResponseEntity.ok(ApiResponse.success("Login successful", response));
     }
 
+    @PostMapping("/verify-registration-otp")
+    public ResponseEntity<ApiResponse<AuthResponse>> verifyRegistrationOtp(
+            @Valid @RequestBody OtpVerificationRequest request) {
+        AuthResponse response = authService.verifyRegistrationOtp(request.getEmail(), request.getOtp());
+        return ResponseEntity.ok(ApiResponse.success("Email verified successfully", response));
+    }
+
+    @PostMapping("/verify-login-otp")
+    public ResponseEntity<ApiResponse<AuthResponse>> verifyLoginOtp(
+            @Valid @RequestBody OtpVerificationRequest request) {
+        AuthResponse response = authService.verifyLoginOtp(request.getEmail(), request.getOtp());
+        return ResponseEntity.ok(ApiResponse.success("Login verified successfully", response));
+    }
+
     @PostMapping("/refresh")
     public ResponseEntity<ApiResponse<AuthResponse>> refresh(
             @RequestBody RefreshTokenRequest request) {
